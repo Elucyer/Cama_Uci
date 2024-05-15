@@ -33,7 +33,7 @@ def test_main():
     
     while True:
         scroll_text(lcd_line1, message1, 200, 0)  # Ajusta el retraso según la velocidad de desplazamiento deseada
-        scroll_text(lcd_line2, mes, 200, 0)
+        scroll_text(lcd_line2, message2, 200, 0)
         sleep_ms(5000)
 
 test_main()
